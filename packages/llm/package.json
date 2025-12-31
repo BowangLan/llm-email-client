@@ -1,0 +1,11 @@
+{
+  "name": "@repo/llm",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "echo \"TODO: build llm\"",
+    "lint": "echo \"TODO: lint llm\"",
+    "test": "echo \"TODO: test llm\""
+  }
+}

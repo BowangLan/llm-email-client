@@ -1,0 +1,1 @@
+export const DEFAULT_SYNC_WINDOW_DAYS = 14;

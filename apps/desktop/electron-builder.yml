@@ -1,0 +1,5 @@
+appId: com.example.llm-email-client
+productName: LLM Email Client
+files:
+  - dist/**
+  - package.json

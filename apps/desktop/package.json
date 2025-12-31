@@ -1,0 +1,11 @@
+{
+  "name": "desktop",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "echo \"TODO: configure electron dev script\"",
+    "build": "echo \"TODO: configure electron build\"",
+    "lint": "echo \"TODO: configure lint\"",
+    "test": "echo \"TODO: configure tests\""
+  }
+}

@@ -1,25 +1,15 @@
 {
-  "name": "kitchen-sink",
+  "name": "llm-email-client",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "clean": "turbo run clean",
-    "dev": "turbo run dev",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "check-types": "turbo run check-types"
+    "dev": "pnpm --filter desktop dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
   },
-  "devDependencies": {
-    "prettier": "^3.6.0",
-    "turbo": "^2.7.2"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "bun@1.3.4",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "packageManager": "pnpm@9.12.0"
 }

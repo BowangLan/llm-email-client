@@ -1,0 +1,11 @@
+{
+  "name": "@repo/gmail",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "echo \"TODO: build gmail\"",
+    "lint": "echo \"TODO: lint gmail\"",
+    "test": "echo \"TODO: test gmail\""
+  }
+}
